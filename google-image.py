@@ -22,7 +22,7 @@ class GoogleImageSelectedCommand(sublime_plugin.TextCommand):
                 text = self.view.word(selection)
 
             text = self.view.substr(selection)
-			
+
             query(text)
 
 class GoogleImageFromInputCommand(sublime_plugin.WindowCommand):
