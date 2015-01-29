@@ -12,12 +12,12 @@
                 "children":
                 [
                     {
-                        "command": "google_search_selected",
-                        "caption": "Search from Selected"
+                        "caption": "Search Selected",
+                        "command": "google_image_selected"
                     },
                     {
-                        "command": "google_search_from_input",
-                        "caption": "Search from Input"
+                        "caption": "Search from Input",
+                        "command": "google_image_from_input"
                     }
                 ]
             }
