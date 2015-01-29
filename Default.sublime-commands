@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Google Images: Search Selected",
+        "command": "google_image_selected"
+    },
+    {
+        "caption": "Google Images: Search from Input",
+        "command": "google_image_from_input"
+    }
+]

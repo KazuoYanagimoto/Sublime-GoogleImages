@@ -1,0 +1,124 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "t",
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "Google Images",
+                "mnemonic": "i",
+                "id": "googlesearch",
+                "children":
+                [
+                    {
+                        "command": "google_search_selected",
+                        "caption": "Search from Selected"
+                    },
+                    {
+                        "command": "google_search_from_input",
+                        "caption": "Search from Input"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Google Images",
+                        "mnemonic": "f",
+                        "id": "googlesearch",
+                        "children":
+                        [
+                            {
+                                "caption": "README.md",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    /*"file": "${packages}/GoogleImages/EADME.md"*/
+                                    "file": "${packages}/User/GoogleImages/README.md"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Settings – Default",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    /*"file": "${packages}/GoogleImages/GoogleImages.sublime-settings"*/
+                                    "file": "${packages}/User/GoogleImages.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/User/GoogleImages/README.md"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/GoogleImages/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/GoogleImages/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/GoogleImages/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
