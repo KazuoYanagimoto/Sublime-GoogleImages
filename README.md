@@ -1,2 +1,2 @@
 # Sublime-GoogleImages-Plugin
-Search for images by using Google Images
+Sublime plugin for searching images by using Google Images
